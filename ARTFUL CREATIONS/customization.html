@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Artful Creations</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: PhotoFolio
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <i class="bi bi-palette"></i>
+        <h1>Artful Creations</h1>
+        
+
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="gallery.html">Nature</a></li>
+              <li><a href="portrait.html">Portrait</a></li>
+              <li><a href="pen.html">Pen</a></li>
+              <li><a href="religious.html">Religious</a></li>
+              <li><a href="animal.html">Animals</a></li>
+              
+              
+            </ul>
+          </li>
+          <li><a href="customization.html" class="active">Customization</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+       
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <!-- ======= End Page Header ======= -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2>Customization</h2>
+            <form action="customization.php" method="POST"> 
+            <p>Fill The Details As Per You Want Your<br> Art To Be Customized.</p>
+            <!--<a class="cta-btn" href="contact.html">Available Filfor hire</a>-->
+
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Header -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="customization" class="customization">
+      <!--<div class="container">
+        
+    <!-- ======= Contact Section ======= -->
+    <section id="customization" class="Customization">
+      <div class="container">
+
+        <div class="row gy-4 justify-content-center">
+
+
+                    <div class="row">
+											<!--<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="name">Artwork Size</label>
+													<input type="text" class="form-control" name="name" id="fullname" placeholder="Name">
+												</div>-->
+												<div class="col-md-6">
+                          <div class="form-group">
+                            <label class="label" for="artwork">Frame Sizes</label>
+                            <select id="artwork" class="form-control" name="artwork" id="artwork" placeholder="Artwork Sizes" required>
+                              <option value="Sizes" style="color: black;">Sizes</option>
+                              <option value="30x30 cm, 11.81x11.81 inch" style="color: black;">30x30 cm, 11.81x11.81 inch</option>
+                              <option value="30x40 cm, 11.81x15.75 inch" style="color: black;">30x40 cm, 11.81x15.75 inch</option>
+                              <option value="40x50 cm, 15.75x19.69 inch" style="color: black;">40x50 cm, 15.75x19.69 inch</option>
+                              <option value="50x50 cm, 19.69x19.69 inch" style="color: black;">50x50 cm, 19.69x19.69 inch</option>
+                              <option value="50x70 cm, 19.69x27.56 inch" style="color: black;">50x70 cm, 19.69x27.56 inch</option>
+                              <option value="70x70 cm, 27.56x27.56 inch" style="color: black;">70x70 cm, 27.56x27.56 inch</option>
+                              </select>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="label" for="artwork">Frame Types</label>
+                            <select id="art" class="form-control" name="art" id="art" placeholder="Artwork Type" required>
+                             <option value="Types" style="color: black;">Types</option>
+                              <option value="Framed Art Print" style="color: black;">Framed Art Print</option>
+                              <option value="Framed Canvas Art Print" style="color: black;">Framed Canvas Art Print</option>
+                              <option value="Without Framed Art Print" style="color: black;"> Without Framed Art Print</option>
+                              <option value="Without Framed Canvas Art Print" style="color: black;"> Without Framed Canvas Art Print</option>
+                              
+                              </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="label" for="artwork"> Artwork Types</label>
+                            <select id="type" class="form-control" name="type" id="type" placeholder=" Art Types" required>
+                              <option value="Types" style="color: black;">Types</option>
+                              <option value="Color Portrait" style="color: black;">Color Portrait</option>
+                              <option value="Sketch" style="color: black;">Sketch</option>
+                              <option value="Painting" style="color: black;"> Painting</option>
+                              <option value="Black and White" style="color: black;"> Black and White</option>
+                              
+                              </select>
+                          </div>
+                        </div>
+  
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="label" for="artwork">Category</label>
+                            <select id="category" class="form-control" name="category" id="category" placeholder=" Category" required>
+                              <option value="Category" style="color: black;">Category</option>
+                              <option value="Natures Art" style="color: black;">Natures Art</option>
+                              <option value="Peoples Art" style="color: black;">Peoples Art</option>
+                              <option value="Pen Art" style="color: black;">Pen Art</option>
+                              <option value="Religious Art" style="color: black;">Religious Art</option>
+                              <option value="Animals Art" style="color: black;">Animals Art</option>
+                              
+                              </select>
+                          </div>
+                        </div>
+                        
+
+
+
+
+
+
+									
+											<center><div class="col-md-5">
+												<div class="form-group">
+													<label class="label" for="Description">Description</label>
+													<textarea name="Description" class="form-control" id="Description" cols="10" rows="4" placeholder="Description"></textarea>
+												</div>
+											</div></center>
+										
+											<!--<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="number">Phone Number</label>
+													<input type="number" class="form-control" name="no" id="number" placeholder="Your Number">
+												</div>
+											</div>
+
+
+
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="category">Category</label>
+													<select id="category" class="form-control" name="category" id="category" placeholder="Category" required>
+														<option value="Category" style="color: black;">Category</option>
+														<option value="Category" style="color: black;">Model Shoot</option>
+														<option value="Category" style="color: black;">Nikaah Shoot</option>
+														<option value="Category" style="color: black;">Birthday Shoot</option>
+														<option value="Category" style="color: black;">Engagement Shoot</option>
+														<option value="Category" style="color: black;">Pre-Wedding Shoot</option>
+														<option value="Category" style="color: black;">BabyShower Shoot</option>
+														</select>
+												</div>
+											</div>
+
+
+
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="message">Any Message/Comments</label>
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+												</div>
+											</div>-->
+                      <br><br>
+									<center><div class="col-md-12">
+                      <div class="form-group"><br>
+                        <a href=""><input type="submit" value="Submit" class="btn btn-primary" ></a>
+                          
+													<div class="submitting"></div>
+												</div>
+                    </div></center>
+                  </div>
+				 </div>
+
+			</div>
+</section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <!--<div class="copyright">
+        &copy; Copyright <strong><span>PhotoFolio</span></strong>. All Rights Reserved
+      </div>-->
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
+        Designed by <a href="">Artful Creations</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!--<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>-->
+
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
